@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.logo {
+  width: 25rem;
+}
+
+.subtitle {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  max-width: 60%;
+}
+
+#btn-i-want {
+  background-color: #1C4A47;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 15rem;
+
+  margin-top: 3rem;
+
+  font-size: 1.5rem;
+  transition: 1s;
+
+  animation-name: stretch;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+#btn-i-want:hover {
+  background-color: #14302e;
+}
+
+.for-who-section{
+  display: flex;
+  flex-direction: row;
+  padding: 3rem 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+.for-who-container{
+  border: 1px solid #1C4A47;
+  box-shadow: 5px 4px #85b4d8;
+  padding: 1rem 3rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35rem;
+  height: 35rem;
+}
+
+.number-for-who{
+  color: #fff;
+  padding: 0.5rem 1.4rem;
+  border-radius: 100%;
+}
+
+.for-who-text{
+  font-size: 1.5rem;
+  /* max-width: 50%; */
+  line-height: 1.7rem;
+}
