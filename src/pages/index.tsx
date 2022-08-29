@@ -15,12 +15,12 @@ const Home: NextPage = () => {
       >
         <Heading
           color="darkGreen"
-          fontWeight="800"
+          fontWeight="900"
           maxWidth="65%"
           marginTop="5rem"
-          fontSize="4rem"
-          lineHeight="4rem"
+          size="4xl"
           id='title'
+          fontFamily="heading"
         >
           Uma consultoria focada em te ajudar a expressar o seu conteúdo para inspirar outras pessoas!
         </Heading>
@@ -52,6 +52,7 @@ const Home: NextPage = () => {
             textAlign="center"
             fontSize="3rem"
             id='for-who-title'
+            fontFamily="Montserrat"
           >
             Para quem é a Consultoria DC?
           </Heading>

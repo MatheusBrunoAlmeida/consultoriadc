@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   font-size: 16px;
-}
+} */
 
 .logo {
   width: 25rem;
@@ -63,6 +63,10 @@ html {
   height: 35rem;
 }
 
+#for-who-title{
+
+}
+
 .number-for-who{
   color: #fff;
   padding: 0.5rem 1.4rem;
@@ -71,6 +75,7 @@ html {
 
 .for-who-text{
   font-size: 1.5rem;
-  /* max-width: 50%; */
   line-height: 1.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }

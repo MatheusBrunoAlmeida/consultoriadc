@@ -109,6 +109,11 @@
         height: 25rem;
     }
 
+    #for-who-title {
+        /* font-size: 2.3rem; */
+        line-height: 2.7rem;
+    }
+
     .for-who-text {
         font-size: 1.1rem;
     }
@@ -118,8 +123,8 @@
 @media(max-width: 492px) {
     #title {
         max-width: 100%;
-        font-size: 2rem;
-        line-height: 2.2rem;
+        font-size: 2.7rem;
+        /* line-height: 2.2rem; */
     }
 
     .subtitle {
@@ -144,6 +149,7 @@
 
     #for-who-title {
         font-size: 1.7rem;
+        line-height: 2rem;
     }
 
     #number-1,
@@ -156,7 +162,7 @@
     }
 
     .for-who-text {
-        font-size: 1rem;
+        font-size: 0.9rem;
         line-height: 1rem;
     }
 }
