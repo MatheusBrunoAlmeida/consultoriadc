@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           marginTop="5rem"
           size="4xl"
           id='title'
-          fontFamily="heading"
+          fontFamily="All Nevrada"
         >
           Uma consultoria focada em te ajudar a expressar o seu conteúdo para inspirar outras pessoas!
         </Heading>
