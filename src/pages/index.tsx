@@ -1,6 +1,7 @@
-import { Box, Button, Heading, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, Heading, Text } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Header from '../components/Header'
+import bg from '../../public/assets/bg-gray.jpeg'
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
         flexDirection="column"
         alignItems="center"
         textAlign="center"
+        id='banner-section'
       >
         <Heading
           color="darkGreen"
@@ -85,7 +87,7 @@ const Home: NextPage = () => {
             flexDirection="row"
             alignItems="center"
             gap="1rem"
-            
+
           >
             <Heading
               className='number-for-who'
@@ -133,6 +135,159 @@ const Home: NextPage = () => {
           </Box>
         </Box>
       </Box>
+
+      <Flex
+        id='price-section'
+      >
+        <Flex
+          className='price-container price-container-info'
+          style={{
+            justifyContent: 'center',
+            gap: '5%'
+          }}
+        >
+          <Heading
+            color="darkGreen"
+            fontWeight="900"
+            size="2xl"
+            fontFamily="All Nevrada"
+            id='investimento-title'
+          >
+            INVESTIMENTO
+          </Heading>
+
+          <Flex
+            flexDirection="column"
+            gap="1.5rem"
+          >
+            <Heading
+              size="lg"
+              textAlign="center"
+            >
+              O que você recebe:
+            </Heading>
+
+            <Flex
+              flexDirection="column"
+              textAlign="center"
+              fontSize="1.2rem"
+              fontWeight="500"
+            >
+              <Text>2 Encontros (presenciais ou online) +</Text>
+              <Text>Análise de perfil +</Text>
+              <Text>1 mês de acompanhamento +</Text>
+              <Text>Template de plano de ação</Text>
+              <Text>Tabela de planejamento +</Text>
+              <Text>Análise SWOT +</Text>
+              <Text>Calendário de Stories +</Text>
+              <Text>Tabela de datas comemorativas +</Text>
+              <Text>Planilha de ideias para o seu nicho +</Text>
+              <Text>Trello para esquematização +</Text>
+              <Text>Estratégia de crescimento personalizada .</Text>
+            </Flex>
+          </Flex>
+        </Flex>
+
+        <Flex
+          className='price-container price-container-price'
+          justifyContent="flex-start"
+        >
+          <Flex
+            gap="1rem"
+            flexDirection="column"
+            marginTop="2rem"
+            alignItems="center"
+          >
+            <Heading
+              fontFamily="All Nevrada"
+              textTransform="uppercase" 
+              className='text-up'
+            >
+              60% de desconto!
+            </Heading>
+
+            <Heading
+              fontFamily="All Nevrada"
+              textTransform="uppercase"
+              className='text-up'
+            >
+              DE: <span className="color-red-background">R$ 1.129,90</span>
+            </Heading>
+          </Flex>
+
+          <Flex
+            marginTop="5rem"
+            color="darkGreen"
+            textTransform="uppercase"
+            flexDirection="column"
+            alignItems="center"
+            id='valor-container'
+          >
+            <Heading
+              fontFamily="All Nevrada"
+              className='desconto-title'
+            >
+              Por apenas:
+            </Heading>
+
+            <Heading
+              fontFamily="All Nevrada"
+              className='desconto-title'
+            >
+              2x de:
+            </Heading>
+
+            <Heading
+              fontFamily="Montserrat"
+              color="#fff"
+              backgroundColor="#00812f"
+              display="flex"
+              justifyContent="center"
+              padding="0.5rem"
+              borderRadius="10px"
+              size="3xl"
+              className='desconto-valor'
+            >
+              R$ 249,90
+            </Heading>
+          </Flex>
+
+          <Flex
+            flexDirection="column"
+            marginTop="3rem"
+            alignItems="center"
+          >
+            <Heading
+              fontFamily="All Nevrada"
+              size="md"
+              className='desconto-text-info'
+            >
+              ou à vista com 10% de DESCONTO:
+            </Heading>
+
+            <Heading
+              fontFamily="All Nevrada"
+              size="md"
+              className='desconto-text-info'
+            >
+              Pagamento único de 449,90
+            </Heading>
+          </Flex>
+
+          <Flex
+            marginTop="1rem"
+            alignItems="center"
+            justify="center"
+            textAlign="center"
+          >
+            <Text
+              fontSize="0.7rem"
+            >
+              * valores válidos para o mês de agosto, ou enquanto houverem vagas disponíveis
+            </Text>
+          </Flex>
+        </Flex>
+      </Flex>
     </>
   )
 }

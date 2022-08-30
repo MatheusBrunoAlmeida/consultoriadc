@@ -12,6 +12,10 @@
         margin-top: 3rem;
         font-size: 1.3rem;
     }
+
+    .price-container-price .text-up{
+        font-size: 2rem;
+    }
 }
 
 @media(max-width: 1000px) {
@@ -36,16 +40,61 @@
     .for-who-text {
         font-size: 1.3rem;
     }
+
+    .price-container-price .text-up{
+        font-size: 2rem;
+    }
+
+    .price-container-price .desconto-title{
+        font-size: 2rem;
+    }
+
+    .price-container-price .desconto-valor{
+        font-size: 3rem;
+    }
+
+    .price-container-price .desconto-text-info{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 950px){
+    #price-section {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 2rem;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
 }
 
 @media(max-width: 874px) {
     #for-who-title {
         font-size: 2.3rem;
     }
+
+    #price-section {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 2rem;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
 }
 
 @media(max-width: 768px) {
     .for-who-section {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 2rem;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    #price-section{
         display: flex;
         flex-direction: column;
         padding: 3rem 2rem;
@@ -84,6 +133,12 @@
         height: 30rem;
     }
 
+    .price-container {
+        /* padding: 1rem 3rem; */
+        width: 30rem;
+        height: 30rem;
+    }
+
     #for-who-title {
         font-size: 2.3rem;
     }
@@ -100,6 +155,30 @@
     .for-who-text {
         font-size: 1.4rem;
     }
+
+    .price-container-info .chakra-text{
+        font-size: 1rem;
+    }
+
+    .price-container-price .text-up{
+        font-size: 1.7rem;
+    }
+
+    .price-container-price .desconto-title{
+        font-size: 1.9rem;
+    }
+
+    #valor-container{
+        margin-top: 2rem;
+    }
+
+    .price-container-price .desconto-valor{
+        font-size: 2.7rem;
+    }
+
+    .price-container-price .desconto-text-info{
+        font-size: 1rem;
+    }
 }
 
 @media(max-width: 518px) {
@@ -107,6 +186,11 @@
         padding: 1rem 3rem;
         width: 25rem;
         height: 25rem;
+    }
+
+    .price-container {
+        padding: 1rem 3rem;
+        width: 25rem;
     }
 
     #for-who-title {
@@ -118,6 +202,13 @@
         font-size: 1.1rem;
     }
 
+    .price-container-info .chakra-heading{
+        font-size: 1.5rem;
+    }
+
+    .price-container-info .chakra-text{
+        font-size: 0.9rem;
+    }
 }
 
 @media(max-width: 492px) {
@@ -137,7 +228,7 @@
         font-size: 1rem;
         width: 10rem;
         padding: 0.5rem;
-    }
+    }    
 }
 
 @media(max-width: 432px) {
@@ -145,6 +236,11 @@
         padding: 1rem 3rem;
         width: 20rem;
         height: 20rem;
+    }
+
+    .price-container {
+        width: 20rem;
+        padding: 0rem 0rem;
     }
 
     #for-who-title {
@@ -165,6 +261,26 @@
         font-size: 0.9rem;
         line-height: 1rem;
     }
+
+    .price-container-price .text-up{
+        font-size: 1.2rem;
+    }
+
+    .price-container-price .desconto-title{
+        font-size: 1.7rem;
+    }
+
+    #valor-container{
+        margin-top: 2rem;
+    }
+
+    .price-container-price .desconto-valor{
+        font-size: 2.5rem;
+    }
+
+    .price-container-price .desconto-text-info{
+        font-size: 0.9rem;
+    }
 }
 
 @media(max-width: 352px) {
@@ -177,7 +293,32 @@
         height: 20rem;
     }
 
+    .price-container {
+        padding: 1rem;
+        width: 18rem;
+    }
+
     #for-who-title {
         font-size: 1.6rem;
+    }
+
+    .price-container-price .text-up{
+        font-size: 1.2rem;
+    }
+
+    .price-container-price .desconto-title{
+        font-size: 1.7rem;
+    }
+
+    #valor-container{
+        margin-top: 2rem;
+    }
+
+    .price-container-price .desconto-valor{
+        font-size: 2.5rem;
+    }
+
+    .price-container-price .desconto-text-info{
+        font-size: 0.9rem;
     }
 }
