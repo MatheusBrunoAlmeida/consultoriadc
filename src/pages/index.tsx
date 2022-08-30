@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           fontWeight="900"
           maxWidth="65%"
           marginTop="5rem"
-          size="4xl"
+          size="3xl"
           id='title'
           fontFamily="All Nevrada"
         >
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
           Por isso, desenvolvemos um método de diagnóstico dos problemas da sua marca para te impulsionar no seu conteúdo;
         </h1>
 
-        <button id='btn-i-want'>Eu quero!</button>
+        <button id='btn-i-want'>EU QUERO!</button>
       </Box>
 
       <Box
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
             textAlign="center"
             fontSize="3rem"
             id='for-who-title'
-            fontFamily="Montserrat"
+            fontFamily="All Nevrada"
           >
             Para quem é a Consultoria DC?
           </Heading>

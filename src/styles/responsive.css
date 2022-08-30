@@ -168,6 +168,9 @@
 }
 
 @media(max-width: 352px) {
+    #title{
+        font-size: 2.4rem;
+    }
     .for-who-container {
         padding: 1rem 3rem;
         width: 19rem;
