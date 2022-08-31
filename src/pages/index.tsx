@@ -2,6 +2,7 @@ import { Box, Button, Flex, Heading, Text } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Header from '../components/Header'
 import bg from '../../public/assets/bg-gray.jpeg'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
   const whatsapplink = 'https://api.whatsapp.com/send?phone=5562981858307&text=Ol%C3%A1!%20Quero%20pegar%20meu%20desconto%20da%20consultoria!'
@@ -39,7 +40,11 @@ const Home: NextPage = () => {
           Por isso, desenvolvemos um método de diagnóstico dos problemas da sua marca para te impulsionar no seu conteúdo;
         </h1>
 
-        <button id='btn-i-want'>EU QUERO!</button>
+        <Link href="#price-section" scroll={true}>
+          <button id='btn-i-want'>
+            EU QUERO!
+          </button>
+        </Link>
       </Box>
 
       <Box
@@ -305,7 +310,7 @@ const Home: NextPage = () => {
       >
         <button
           id='btn-i-want-wpp'
-          onClick={()=> handleIWant()}
+          onClick={() => handleIWant()}
         >
           EU QUERO!
         </button>
