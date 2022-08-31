@@ -4,6 +4,12 @@ import Header from '../components/Header'
 import bg from '../../public/assets/bg-gray.jpeg'
 
 const Home: NextPage = () => {
+  const whatsapplink = 'https://api.whatsapp.com/send?phone=5562981858307&text=Ol%C3%A1!%20Quero%20pegar%20meu%20desconto%20da%20consultoria!'
+
+  function handleIWant() {
+    window.open(whatsapplink, '_blank')
+  }
+
   return (
     <>
       <Header />
@@ -200,8 +206,9 @@ const Home: NextPage = () => {
           >
             <Heading
               fontFamily="All Nevrada"
-              textTransform="uppercase" 
+              textTransform="uppercase"
               className='text-up'
+              color="#2d2d2d"
             >
               60% de desconto!
             </Heading>
@@ -210,6 +217,7 @@ const Home: NextPage = () => {
               fontFamily="All Nevrada"
               textTransform="uppercase"
               className='text-up'
+              color="#2d2d2d"
             >
               DE: <span className="color-red-background">R$ 1.129,90</span>
             </Heading>
@@ -261,6 +269,7 @@ const Home: NextPage = () => {
               fontFamily="All Nevrada"
               size="md"
               className='desconto-text-info'
+              color="#2d2d2d"
             >
               ou à vista com 10% de DESCONTO:
             </Heading>
@@ -269,6 +278,7 @@ const Home: NextPage = () => {
               fontFamily="All Nevrada"
               size="md"
               className='desconto-text-info'
+              color="#2d2d2d"
             >
               Pagamento único de 449,90
             </Heading>
@@ -287,6 +297,18 @@ const Home: NextPage = () => {
             </Text>
           </Flex>
         </Flex>
+      </Flex>
+
+      <Flex
+        width="100%"
+        justifyContent="center"
+      >
+        <button
+          id='btn-i-want-wpp'
+          onClick={()=> handleIWant()}
+        >
+          EU QUERO!
+        </button>
       </Flex>
     </>
   )

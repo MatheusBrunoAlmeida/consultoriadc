@@ -142,3 +142,29 @@
   text-decoration-style: #ff0000;
   font-family: 'Montserrat';
 }
+
+#btn-i-want-wpp {
+  background-color: #1C4A47;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 15rem; 
+
+  margin-bottom: 2rem;
+
+  font-size: 1.5rem;
+  transition: 1s;
+
+  font-family: 'Inter';
+
+  animation-name: stretch;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+#btn-i-want-wpp:hover {
+  background-color: #14302e;
+}
