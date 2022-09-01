@@ -298,7 +298,7 @@ const Home: NextPage = () => {
             <Text
               fontSize="0.7rem"
             >
-              * valores válidos para o mês de agosto, ou enquanto houverem vagas disponíveis
+              * valores válidos até o dia 10/09/2022
             </Text>
           </Flex>
         </Flex>
